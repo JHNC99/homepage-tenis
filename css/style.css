@@ -217,3 +217,13 @@ nav ul {
         transform: rotate(90deg);
     }
 }
+
+@media screen and (max-width:932px){
+    html{
+        font-size:45%;
+    }
+    nav{
+        text-align: center;
+    }
+
+}
