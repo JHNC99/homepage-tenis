@@ -1,0 +1,141 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul,
+li,
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h4,
+h5 {
+    font-size: 2.8rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+button {
+    padding: 2rem 6rem;
+    background: #d96321;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background 0.5s ease-in-out;
+    border-radius: 5rem;
+    text-transform: uppercase;
+}
+
+/* anouncemnt */
+.anouncemnt {
+    background: #cfe062;
+    padding: 1rem 0;
+    color: rgba(126, 123, 123, 0.986);
+    text-align: center;
+}
+
+.anouncemnt p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 
+    NAV
+*/
+
+.main-head {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: transparent;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    width: 90%;
+    min-height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 60rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+/* Banner */
+/*Banner section*/
+.hero {
+    height: 90vh;
+    background: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+
+
+}
+
+.hero-title {
+    text-transform: uppercase;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+.hero h3 {
+    padding: 5rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
