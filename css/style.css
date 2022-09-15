@@ -152,7 +152,7 @@ nav ul {
 
 /* Card */
 #products {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,7 +183,7 @@ nav ul {
 
 .swiper {
     width: 90%;
-    height: 70%;
+    height: 100%;
 }
 
 .swiper-slide {
@@ -212,15 +212,6 @@ nav ul {
         right: 20px;
         transform: rotate(90deg);
     }
-
-    .swiper {
-        height: 100%;
-    }
-
-    .card img {
-        width: 40%;
-    }
-
     .swiper-button-prev {
         left: 20px;
         transform: rotate(90deg);

@@ -1,13 +1,22 @@
 let swiper = new Swiper('.swiper', {
-    slidesPerView: getDirection() === 'horizontal' ? 3 : 2,
-    direction: getDirection(),
+    slidesPerView:1,
+
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    on: {
-        resize: function () {
-            swiper.changeDirection(getDirection());
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
         },
     },
 
