@@ -212,18 +212,24 @@ nav ul {
         right: 20px;
         transform: rotate(90deg);
     }
+
     .swiper-button-prev {
         left: 20px;
         transform: rotate(90deg);
     }
 }
 
-@media screen and (max-width:932px){
-    html{
-        font-size:45%;
+@media screen and (max-width:932px) {
+    html {
+        font-size: 45%;
     }
-    nav{
+
+    nav {
         text-align: center;
     }
 
+    #products {
+        height: 100vh;
+        
+    }
 }
