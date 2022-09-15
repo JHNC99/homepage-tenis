@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('fonts/Apercu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *,
 *:before,
 *:after {
@@ -8,7 +15,7 @@
 
 body {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Apercu", sans-serif;
 }
 
 html {
