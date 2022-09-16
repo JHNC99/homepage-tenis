@@ -337,4 +337,8 @@ footer {
     .row {
         flex-direction: column;
     }
+
+    .card {
+        min-height: 30vh;
+    }
 }
