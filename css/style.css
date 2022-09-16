@@ -335,11 +335,11 @@ footer {
 }
 
 @media screen and (max-width:764px) {
-    .row {
+    .categories_row {
         flex-direction: column;
     }
 
-    .card {
+    .products_card {
         min-height: 30vh;
     }
 
