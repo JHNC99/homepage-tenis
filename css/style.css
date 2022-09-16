@@ -322,6 +322,8 @@ footer {
     color: #6f7e0d;
 }
 
+
+
 @media screen and (max-width:932px) {
     html {
         font-size: 40%;
@@ -340,5 +342,8 @@ footer {
 
     .card {
         min-height: 30vh;
+    }
+    #products {
+        height: 800vh;
     }
 }
