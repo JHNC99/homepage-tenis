@@ -262,7 +262,7 @@ nav ul {
 }
 
 .banner {
-    height: 50vh;
+    height: 70vh;
     background: url(../img/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -277,7 +277,7 @@ nav ul {
 }
 
 footer {
-    height: 20vh;
+    padding: 5rem;
     background: #cfe062;
     display: flex;
     justify-content: center;
