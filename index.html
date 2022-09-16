@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 
 </head>
@@ -37,7 +40,6 @@
     </section>
 
     <section id="products">
-
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide card">
@@ -49,14 +51,14 @@
                 </div>
                 <div class="swiper-slide card">
                     <div class="card-ico">
-                        <img src="img/product1.png" alt="">
+                        <img src="img/product2.png" alt="">
                     </div>
                     <p class="description">Lorem ipsum dolor sit amet.</p>
                     <p class="price">$22.2</p>
                 </div>
                 <div class="swiper-slide card">
                     <div class="card-ico">
-                        <img src="img/product1.png" alt="">
+                        <img src="img/product3.png" alt="">
                     </div>
                     <p class="description">Lorem ipsum dolor sit amet.</p>
                     <p class="price">$22.2</p>
@@ -85,13 +87,51 @@
         <button>Ver todos</button>
     </section>
 
-    <section>
-        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore cumque itaque id enim, dolore non architecto ipsum debitis necessitatibus similique tenetur, aut voluptates ducimus! Quisquam voluptate beatae explicabo suscipit. Libero?</h1>
+    <section id="gallery">
+        <div class="row">
+            <article class="col">
+                <img src="img/img1.png" alt="">
+                <article class="overlay">
+                    <h2>Raquetas</h2>
+                </article>
+            </article>
+            <article class="col">
+                <img src="img/img2.png" alt="">
+                <article class="overlay">
+                    <h2>Pelotas</h2>
+                </article>
+            </article>
+            <article class="col">
+                <img src="img/img3.png" alt="">
+                <article class="overlay">
+                    <h2>Accesorios</h2>
+                </article>
+        </div>
+
+        </div>
+    </section>
+    <section class="banner">
+        <h2 class="hero-title">descubre tu pasión</h2>
+        <button>Comprar ahora</button>
     </section>
 
-    <!-- Swiper JS -->
+    <footer>
+        <div class="footer-wrap">
+            <div class="info">
+
+                <ul class="social-icon">
+                    <li class="icon-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="icon-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+                <p class="footer-info">© DEV. All Rights Reserved. Privacy Policy, Terms & Conditions</p>
+
+            </div>
+            <div>
+               <img src="img/footer.png" alt="">
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper -->
     <script src="js/swiper.js"></script>
 </body>
 
